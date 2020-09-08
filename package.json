@@ -1,0 +1,25 @@
+{
+  "name": "xmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush-cosmo/xMark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyush-cosmo/xMark/issues"
+  },
+  "homepage": "https://github.com/piyush-cosmo/xMark#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
