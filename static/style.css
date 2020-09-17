@@ -1,0 +1,30 @@
+body{
+    margin:0;
+}
+.container{
+    display: flex;
+    height:800px;
+    width:100%;
+}
+.content{
+    background-color: #233256;
+    flex-grow: 2;
+    overflow-y: scroll;
+}
+.side-content{
+    background-color: #EFEFEF;
+    transition: all .5s;
+    flex-grow: 1;
+    width:50%;
+    overflow-y: auto;
+}
+.section{
+    height:20%;
+}
+.section-img{
+    height:70%;
+}
+img{
+    /* height:80%; */
+    width:100%;
+}
