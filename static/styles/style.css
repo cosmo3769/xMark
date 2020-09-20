@@ -1,5 +1,9 @@
 body{
     margin:0;
+    font-family: "semplicita", "helvetica";
+    font-size: 16px;
+    font-weight: normal;
+    color:#333;
     /* overflow-y: hidden; */
 }
 .container{
