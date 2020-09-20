@@ -54,6 +54,31 @@
     margin-left: 5%;
 }
 
+.header-fundamentals {
+    display: flex;
+    justify-content: center;
+    padding: 38%;
+    line-height: 0.8;
+    text-decoration: none;
+}
+
+.fundamental-link {
+    text-decoration: none;
+}
+
+.our {
+    margin-left: 38%;
+    font-style: italic;
+    color: grey;
+    text-decoration: none;
+}
+
+.fun {
+    font-style: italic;
+    color: grey;
+    text-decoration: none;
+}
+
 .curtain {
     width: 100%;
     height: 100vh;
