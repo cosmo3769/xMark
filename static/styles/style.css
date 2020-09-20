@@ -4,7 +4,7 @@ body{
     font-size: 16px;
     font-weight: normal;
     color:#333;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 .container{
     display: flex;
@@ -22,7 +22,7 @@ body{
     background-color: #EFEFEF;
     transition: all .5s;
     flex-grow: 1;
-    width:50%;
+    width:51%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
