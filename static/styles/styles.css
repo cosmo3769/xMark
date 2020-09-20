@@ -49,9 +49,6 @@
     top: 54%;
 }
 
-
-
-
 .header-logo {
     margin-top: 34%;
     margin-left: 5%;
@@ -90,4 +87,18 @@
 
 .icon.close .curtain__panel-right {
     transform: translateX(100%);
+}
+
+.section {
+    height: 33.3%;
+}
+
+.horiz {
+    width: 90%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 18%;
 }
