@@ -67,14 +67,14 @@
 }
 
 .our {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 38%;
-    font-style: italic;
     color: grey;
     text-decoration: none;
 }
 
 .fun {
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: grey;
     text-decoration: none;
 }
