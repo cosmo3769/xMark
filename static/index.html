@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xMark</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
+
 </head>
 <body>
 <div class=container>
     <div class="side-content">
-        hypexmark
+        <header class="main-header">
+            <div id="wrapper">
+                <div class="circle icon">
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </div>
+            </div> 
+            <img class="header-logo" src="img/logo.png">
+            <div class="header-fundamentals">
+                <a class="fundamental-link" href="fundamentals.html">
+                    <p class="our">our</p>
+                    <p class="fun">FUNDAMENTALS</p>
+                </a>
+            </div>
+        </header>
+        <div class="curtain">
+            <div class="curtain__wrapper icon">
+                <div class="curtain__panel curtain__panel-right">
+                    <div class="section-menu">
+                        <p class="content-p">HOME</p>
+                    </div>
+                    <hr class="horiz">
+                    <div class="section-menu">
+                        <p class="content-p">ABOUT US</p>
+                    </div>
+                    <hr class="horiz">
+                    <div class="section-menu">
+                        <p class="content-p">BLOG</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="content">
@@ -80,18 +115,21 @@
 
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="styles/func.js"></script> -->
+  <script src="files/jquery.slim.min.js"></script>
+  <script src="files/popper.min.js"></script>
+  <script src="files/bootstrap.min.js"></script>
+  <script src="styles/func.js"></script>
+
   <script>
      $(document).ready(function(){
 
          $("#hype").hover(function(){
             $("hype-all").slideUp(1000);
              $("#hype-text").fadeToggle(1000);
-             
-
-         });
-        
+         });  
      })
- </script>
+  </script>
 
     
 </body>
