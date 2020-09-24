@@ -55,6 +55,8 @@ body{
 }
 .img-svg{
     position: absolute;
+    height: auto;
+    width:100%;
 }
 .text{
     position: absolute;
@@ -273,4 +275,68 @@ h1{
     padding-left: 5%;
     color: #233256;
 }
+
+
+/* For contact page */
+
+.bg-form{
+    position: relative;
+    height: auto;
+}
+.form{
+    position: absolute;
+    top:7%;
+    height:auto;
+    width:80%;
+    padding:5%;
+    /* padding-right: 20%; */
+    backdrop-filter: blur(3px);
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+input, select, textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left:6%;
+  }
+  textarea{
+      margin-left: 6%;
+  }
+  input[type='submit']{
+      margin-left: 6%;
+      color:white;
+      background-color: #233256;
+  }
+  input[type='submit']:hover{
+      background-color: green;
+  }
+  .contact-info{
+      margin-left: 1%;
+      border: 2px solid #233256;
+      background-color: #233256;
+      color: #EFEFEF;
+
+  }
+  .address{
+      display: inline;
+      float: right;
+      margin-right: 4%;
+      margin-top: 0;
+      padding-top: 0;
+  }
+  .map{
+      display:inline-block;
+      width:60%;
+      background-color: #233256;
+  }
+  .map > h4{
+      background-color: #233256;
+      color:white;
+  }
 
