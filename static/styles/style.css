@@ -1,3 +1,73 @@
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        /* display: flex; */
+        /* overflow-y: scroll; */
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .side-content{
+        width:100%;
+        height:40%;
+        display: block;
+        /* flex-direction: column; */
+        /* flex-grow: 1; */
+    }
+    .main-header{
+        width: 100%;
+        /* flex-direction: column; */
+        height: 20%;
+        display: block;
+        /* flex-grow: 1; */
+    }
+    .content{
+        width:100%;
+        height:40%;
+        display: block;
+        /* flex-direction: column; */
+        /* flex-grow: 1; */
+    }
+    .curtain{
+        display: block;
+        width: 100%;
+        height: auto;
+        /* flex-grow: 1; */
+    }
+    .section{
+        width: 100%;
+        height: auto;
+        display: block;
+        /* flex-grow: 1; */
+    }
+    .section-img{
+        display:block;
+        height: auto;
+        width: 100%;
+    }
+    .img-content{
+        display:block;
+        height: auto;
+        width: 100%;
+
+    }
+    .nav{
+        display:block;
+        height: auto;
+        width: 100%;
+    }
+    .nav-items{
+        display:block;
+        height: auto;
+        width: 100%;
+    }
+
+
+  }
+
+
 body{
     margin:0;
     font-family: "semplicita", "helvetica";
@@ -10,7 +80,7 @@ body{
     display: flex;
     height:720px;
     width:100%;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 .content{
     background-color: #EFEFEF;
@@ -31,6 +101,13 @@ body{
     height:20%;
     position: relative;
     background-color: #233256;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+
+    
 }
 .section:hover{
     background-color:rgb(1, 14, 43);
@@ -51,7 +128,7 @@ body{
 }
 .section-img{
     position: relative;
-    background-color: black;
+    background-color: #233256;
 }
 .img-svg{
     position: absolute;
@@ -71,10 +148,16 @@ body{
     font-size: 1px; 
 }
 .logo{
-    top: 50%;
-    left: 50%;
+    /* top: 50%; */
+    /* left: 50%; */
     /* transform: translate(-50%, -50%); */
-    transform: translateX(50%) scale(0.5,0.5);
+    transform: scale(0.5,0.5);
+    /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 50%; */
+
 }
 .nav{
     display:flex;
@@ -156,6 +239,7 @@ h1{
     background: grey;
     border-radius: 8px;
     transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+    
 }
 
 .top {
@@ -172,8 +256,13 @@ h1{
 
 .header-logo {
     margin-top: 34%;
-    margin-left: 5%;
-    transform: scale(0.5,0.5);
+    /* margin-left: 5%; */
+    /* transform: scale(0.5,0.5); */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 50%;
 }
 
 .header-fundamentals {
@@ -338,5 +427,51 @@ input, select, textarea {
   .map > h4{
       background-color: #233256;
       color:white;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        display: flex;
+        overflow-y: scroll;
+        height: auto;
+
+    }
+    .side-content{
+        width:100%;
+        height:40%;
+        display: block;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .main-header{
+        width: 100%;
+        flex-direction: column;
+        height: 20%;
+        display: block;
+        flex-grow: 1;
+    }
+    .content{
+        width:100%;
+        height:40%;
+        display: block;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .curtain{
+        display: block;
+        width: 100%;
+        height: auto;
+        flex-grow: 1;
+    }
+    .section{
+        width: 100%;
+        height: auto;
+        display: block;
+        flex-grow: 1;
+    }
+
   }
 
