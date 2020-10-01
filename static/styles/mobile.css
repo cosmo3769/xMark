@@ -307,6 +307,28 @@ input[type='submit']:hover{
 
 }
 
+
+/* style for service.html */
+
+.hero{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #233256;
+    color: #EFEFEF;
+}
+.service-img{
+    display: block;
+    height: auto;
+    width: 100%;
+   
+}
+.services{
+    position: relative;
+    padding-left: 5%;
+    color: #233256;
+}
+
 /* Media query for the Desktop view of the page */
 @media only screen and (min-width: 992px) {
 
