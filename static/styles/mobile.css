@@ -326,7 +326,17 @@ input[type='submit']:hover{
 .services{
     position: relative;
     padding-left: 5%;
-    color: #233256;
+    color: rgb(51,51,51);
+}
+.services > h1,h2,h3{
+    font-family: "Ogg", serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+.services > p {
+ font-family: "Palatino", serif;
+ font-size: 17px;
+ font-weight: 400;
 }
 
 /* Media query for the Desktop view of the page */
