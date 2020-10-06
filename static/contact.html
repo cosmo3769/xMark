@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xMark</title>
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-content">
+            <header class="main-header">
+                <div id="wrapper">
+                    <div class="circle icon">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </div>
+                </div> 
+                <img class="header-logo" src="img/logo.png">
+                <div class="header-fundamentals">
+                    <a class="fundamental-link" href="fundamental.html">
+                        <p class="our">our</p>
+                        <p class="fun">FUNDAMENTALS</p>
+                    </a>
+                </div>
+            </header>
+            <div class="curtain">
+                <div class="curtain__wrapper icon">
+                    <div class="curtain__panel curtain__panel-right">
+                        <div class="section-menu">
+                            <a href="fundamental.html" style="text-decoration: none; color: grey;">
+                                <p class="content-p">Our Fundamental</p>
+                            </a>
+                        </div>
+                        <hr class="horiz">
+                        <div class="section-menu">
+                            <a href="service.html" style="text-decoration: none; color: grey;">
+                                <p class="content-p">Our Services</p>
+                            </a>
+                        </div>
+                        <hr class="horiz">
+                        <div class="section-menu">
+                            <p class="content-p">Podcast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        
+        <div class="content">
+            <div class="bg-form">
+              <img class="form-img" src="img/contact-us.jpg" alt="">
+                <div class="form">
+                    <form action="">
+                       <label for="name">
+                       <input type="text" for="name" placeholder="Name" required>
+                       </label>
+                       <br>
+                       <label for="email">
+                       <input type="email" for="email" placeholder="Email" required>
+                       </label>
+                       <br>
+                       <label for="message">
+                       <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message here" required></textarea>
+                       </label>
+                       <br>
+                       <input type="submit" placeholder="submit">
+                
+                    </form>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="map">
+                    <h4>Find Us</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449007.6604473929!2d77.23395897927364!3d28.4532642282283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e1631d234d%3A0x7789ecdc9446f9f7!2sGardenia%20Glory%2C%20Sector%2046%2C%20Noida%2C%20Uttar%20Pradesh%20201303!5e0!3m2!1sen!2sin!4v1596215569042!5m2!1sen!2sin" width="100%" height="170" frameborder="2" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                 <!-- <a href="https://maps.app.goo.gl/UMSdxGAi5ZcyPYp3A">Open google maps</a> -->
+                </div>
+                <div class="address">
+                    <h4>Contact Us</h4>
+                    <p>Address : <br>Gardenia Glory,<br>Sector 46, Noida,<br>Uttar Pradesh (PIN-201303)</p>
+                    <p>Phone : +91 9810450685</p>
+                    <p>Email : hypermarkoff@gmail.com</p>
+                </div>
+                
+            </div>
+         
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="styles/func.js"></script> -->
+    <script src="files/jquery.slim.min.js"></script>
+    <script src="files/popper.min.js"></script>
+    <script src="files/bootstrap.min.js"></script>
+    <script src="styles/func.js"></script>
+  
+    <script>
+       $(document).ready(function(){
+  
+           $("#hype").hover(function(){
+              $("hype-all").slideUp(1000);
+               $("#hype-text").fadeToggle(1000);
+           });  
+       })
+    </script>
+    
+</body>
+</html>

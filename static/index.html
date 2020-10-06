@@ -1,10 +1,158 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <body>
-            <h1>
-                hehe
-            </h1>
-        </body>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xMark</title>
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+</head>
+<body>
+<div class=container>
+    <div class="side-content">
+        <header class="main-header">
+            <div id="wrapper">
+                <div class="circle icon">
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </div>
+            </div> 
+            <div class="header-logo-div">
+                <a href="index.html">
+            <img class="header-logo" src="img/logo.png">
+                </a>
+            </div>
+            <div class="header-fundamentals">
+                <a class="fundamental-link" href="fundamental.html">
+                    <p class="our">our</p>
+                    <p class="fun">FUNDAMENTALS</p>
+                </a>
+            </div>
+        </header>
+        <div class="curtain">
+            <div class="curtain__wrapper icon">
+                <div class="curtain__panel curtain__panel-right">
+                    <hr class="horiz">
+                    <div class="section-menu">
+                        <a href="fundamental.html" style="text-decoration: none; color: grey;">
+                            <p class="content-p">Our Fundamental</p>
+                        </a>
+                    </div>
+                    <hr class="horiz">
+                    <div class="section-menu">
+                        <a href="service.html" style="text-decoration: none; color: grey;">
+                            <p class="content-p">Our Services</p>
+                        </a>
+                    </div>
+                    <hr class="horiz">
+                    <div class="section-menu">
+                        <p class="content-p">Podcast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <!-- <svg class="svg-logo" height="100%" width="100%">
+                <polyline points="30,140 30,20 970,20 970,140 600,140"
+                style="fill:none;stroke:rgb(192,192,192)"/>
+                <text x='500' y="100">hypexmark</text> 
+                <line x1="30", y1="140", x2="400", y2="140"
+                style="fill:none;stroke:rgb(192,192,192);stroke-width:1" />
+            </svg> -->
+               <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <div class="section-img" id="hype">
+            <!-- <svg class="img-svg" height="100%" width="100%">
+                <polyline points="30,640 30,20 970,20 970,640 600,640"
+                style="fill:none;stroke:rgb(192,192,192)"/>
+                
+                <line x1="30", y1="640", x2="400", y2="640"
+                style="fill:none;stroke:rgb(192,192,192);stroke-width:1" />
+            </svg> -->
+            <div class="text" id="hype-all">
+                <h1 id="hype-main">We are Hypexmax</h1>
+                <p id="hype-text">We help your brand achieve maximum potential and digital outreach for your customers, for the brands, for you</p>
+            </div>
+            <a href="fundamental.html">
+                <img class="img-content" src="img/digi.jpg" alt="he-man">
+            </a>
+        </div>
+        <div class="section-img">
+            <a href="service.html">
+            <!-- <svg class="img-svg" height="650" width="1000">
+                <polyline points="30,620 30,20 970,20 970,620 600,620"
+                style="fill:none;stroke:whitesmoke"/>
+
+                <line x1="30", y1="620", x2="400", y2="620"
+                style="fill:none;stroke:whitesmoke;stroke-width:1" />
+            </svg> -->
+            <div class="text" id="hype-all">
+                <h1 id="hype-main">We are Hypexmax</h1>
+                <p id="hype-text">We help your brand achieve maximum potential and digital outreach for your customers, for the brands, for you</p>
+            </div>
+
+            <img class="img-content" src="img/digi2.jpg" alt="">
+            </a>
+        </div>
+        
+        <div class="nav">
+            <div class="nav-section">
+                <a href="fundamental.html" style="text-decoration: none;">
+                    <p class="nav-items">OUR FUNDAMENTALS</p>
+                </a>
+            </div>
+            <hr width="85%"  color=" rgba(228, 228, 228, 0.959)">
+            <div class="nav-section">
+                <a href="service.html" style="text-decoration: none;">
+                    <p class="nav-items">Our Services</p>
+                </a>
+            </div>
+            <hr width="85%" color="rgba(228, 228, 228, 0.959)">
+            <div class="nav-section">
+                <a href="contact.html" style="text-decoration: none;">
+                    <p class="nav-items">Contact Us</p>
+                </a>
+            </div>
+         
+            <hr  color=" rgba(228, 228, 228, 0.959)">
+        </div>
+        
+
+        <footer>
+
+            <p class="copyright">copyright details</p>
+            <p class="developer">made by COSAIMOSH</p>
+        </footer>
+
+
+    </div>
+    
+
+
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="styles/func.js"></script> -->
+  <script src="files/jquery.slim.min.js"></script>
+  <script src="files/popper.min.js"></script>
+  <script src="files/bootstrap.min.js"></script>
+  <script src="styles/func.js"></script>
+
+  <script>
+     $(document).ready(function(){
+
+         $("#hype").hover(function(){
+            // $("#hype-all").slideUp(400);
+             $("#hype-text").fadeToggle(400);
+         });  
+     })
+  </script>
+
+    
+</body>
 </html>
