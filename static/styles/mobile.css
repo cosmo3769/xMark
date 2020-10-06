@@ -338,6 +338,9 @@ input[type='submit']:hover{
  font-size: 17px;
  font-weight: 400;
 }
+.txt-content{
+    padding-right:3% ;
+}
 
 /* Media query for the Desktop view of the page */
 @media only screen and (min-width: 992px) {
